@@ -5,11 +5,14 @@ import java.util.Scanner;
 public class Main{
 
  public static void main (String[] args){
-  Car bmw = new Car(300.0f, 1830, "White ", new byte[] {0,0,0});
 
-  Truck truck = new Truck(5600, new byte[]{ 100,0,100 }, true);
 
-  truck.setLoaded(true);
-  truck.getLoaded();
+  Class_restangle restangle = new Class_restangle(1.0, 1.0);
+  System.out.println(restangle.toString());
+  System.out.println(restangle.area());
+  System.out.println(restangle.perimeter());
+
+  Class_book classBook = new Class_book("Abai zholy", "Mukhtar Auezob", 1950);
+  System.out.println(classBook.toString());
  }
 }
